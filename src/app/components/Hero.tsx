@@ -32,7 +32,7 @@ export function Hero() {
           </p>
 
           <motion.a
-            href="https://wa.me/5562999999999"
+            href="https://wa.me/+5562997024871"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-md text-lg transition-colors"

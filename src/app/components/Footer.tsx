@@ -41,8 +41,8 @@ export function Footer() {
               <li className="flex items-start gap-3 text-gray-400">
                 <Phone size={20} className="mt-1 flex-shrink-0 text-red-600" />
                 <div>
-                  <a href="tel:+5562999999999" className="hover:text-white transition-colors">
-                    (62) 99999-9999
+                  <a href="tel:++5562997024871" className="hover:text-white transition-colors">
+                    (62) 99702-4871
                   </a>
                 </div>
               </li>
@@ -74,7 +74,7 @@ export function Footer() {
             </ul>
             <div className="mt-6">
               <a
-                href="https://wa.me/5562999999999"
+                href="https://wa.me/+5562997024871"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md transition-colors"
