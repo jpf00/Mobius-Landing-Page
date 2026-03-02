@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
+
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
