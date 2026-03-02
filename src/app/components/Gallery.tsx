@@ -7,35 +7,26 @@ export function Gallery() {
 
   const projects = [
     {
-      image: 'https://images.unsplash.com/photo-1771556907729-48f284e5db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBjYXIlMjByYWNpbmclMjBwZXJmb3JtYW5jZSUyMGRhcmt8ZW58MXx8fHwxNzcyMjA5MTA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Track Day Spec',
-      description: 'BMW M3 - +120hp'
+      image: '/src/assets/images/projetos/HB20 1.0 3C 2015.jpg',
+      title: 'HB20 1.0 3C',
+      description: '• Pops and bangs'
     },
     {
-      image: 'https://images.unsplash.com/photo-1631204188707-6decca76fba7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkcmlmdCUyMGNhciUyMHNtb2tlfGVufDF8fHx8MTc3MjIwOTEwNnww&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Drift Build',
-      description: 'Nissan 350Z - Projeto Completo'
+      image: '/src/assets/images/projetos/Jetta 2.0.webp',
+      title: 'Jetta 2.0 stage 2',
+      description: `• Pops and bangs  
+                    • Remoção do delay do acelerador 
+                    • Aumento de potência e torque`
     },
     {
-      image: 'https://images.unsplash.com/photo-1769869263342-b36777a32747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXBlcmNhciUyMHBlcmZvcm1hbmNlfGVufDF8fHx8MTc3MjIwOTEwN3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Supppppper caaaarr',
-      description: 'Porsche 911 - +95hp'
+      image: '/src/assets/images/projetos/Up 170tsi.webp',
+      title: 'Up 170 tsi',
+      description: `• Launch control progressivo ativado
+                    • Hardcut com flames ativado
+                    • Break boost
+                    • Pops and bangs
+                    • Catback: Full inox 304`
     },
-    {
-      image: 'https://images.unsplash.com/photo-1634066640783-c231155c4ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2RpZmllZCUyMHNwb3J0cyUyMGNhcnxlbnwxfHx8fDE3NzIxNzc1NTh8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Modified Street',
-      description: 'Honda Civic Type R - Stage 2'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1769807644905-35d76acaceb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjBlbmdpbmUlMjB0dXJibyUyMHBlcmZvcm1hbmNlfGVufDF8fHx8MTc3MjIwOTEwNnww&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Engine Bay Detail',
-      description: 'Preparação de Motor Turbo'
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1666947520667-371348873d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyYWNpbmclMjBjYXIlMjBpbnRlcmlvciUyMGNvY2twaXR8ZW58MXx8fHwxNzcyMTQ5Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Racing Interior',
-      description: 'Setup Completo para Competição'
-    }
   ];
 
   return (
@@ -77,7 +68,7 @@ export function Gallery() {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-gray-300">{project.description}</p>
+                  <pre className="text-gray-300 whitespace-pre-line">{project.description}</pre>
                 </div>
               </div>
 
@@ -110,3 +101,4 @@ export function Gallery() {
     </section>
   );
 }
+
