@@ -18,7 +18,7 @@ export function Gallery() {
     },
     {
       image: 'https://images.unsplash.com/photo-1769869263342-b36777a32747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXBlcmNhciUyMHBlcmZvcm1hbmNlfGVufDF8fHx8MTc3MjIwOTEwN3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      title: 'Supercar Performance',
+      title: 'Supppppper caaaarr',
       description: 'Porsche 911 - +95hp'
     },
     {
