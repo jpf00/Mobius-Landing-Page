@@ -7,19 +7,19 @@ export function Gallery() {
 
   const projects = [
     {
-      image: '/src/assets/images/projetos/HB20 1.0 3C 2015.jpg',
+      image: 'images/projetos/HB20 1.0 3C 2015.jpg',
       title: 'HB20 1.0 3C',
       description: '• Pops and bangs'
     },
     {
-      image: '/src/assets/images/projetos/Jetta 2.0.webp',
+      image: 'images/projetos/Jetta 2.0.webp',
       title: 'Jetta 2.0 stage 2',
       description: `• Pops and bangs  
                     • Remoção do delay do acelerador 
                     • Aumento de potência e torque`
     },
     {
-      image: '/src/assets/images/projetos/Up 170tsi.webp',
+      image: 'images/projetos/Up 170tsi.webp',
       title: 'Up 170 tsi',
       description: `• Launch control progressivo ativado
                     • Hardcut com flames ativado
