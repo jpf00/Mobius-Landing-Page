@@ -75,10 +75,10 @@ export function About() {
           className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {[
-            { value: '500+', label: 'Veículos Reprogramados' },
+            { value: '20+', label: 'Veículos Reprogramados' },
             { value: '30%', label: 'Ganho Médio de Potência' },
             { value: '100%', label: 'Satisfação Garantida' },
-            { value: '5 Anos', label: 'de Experiência' }
+            { value: '3 Anos', label: 'de Experiência' }
           ].map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl lg:text-5xl font-bold text-red-600 mb-2">

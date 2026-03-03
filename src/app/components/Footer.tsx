@@ -16,21 +16,14 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/mobiusmotorsports"
+                href="https://www.instagram.com/mobius_motorsports/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-red-600 transition-colors"
               >
                 <Instagram size={24} />
               </a>
-              <a
-                href="https://facebook.com/mobiusmotorsports"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-red-600 transition-colors"
-              >
-                <Facebook size={24} />
-              </a>
+             
             </div>
           </div>
 
