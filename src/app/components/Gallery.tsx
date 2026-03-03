@@ -65,8 +65,8 @@ export function Gallery() {
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {/* Overlay: sempre visível no mobile, hover no desktop */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 opacity-100">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
                   <pre className="text-gray-300 whitespace-pre-line">{project.description}</pre>
