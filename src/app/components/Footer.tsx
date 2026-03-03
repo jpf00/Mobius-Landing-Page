@@ -7,8 +7,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo e Descrição */}
           <div>
-            <h3 className="text-2xl font-bold text-white mb-4">
-              MOBIUS<span className="text-red-600"> MOTORSPORTS</span>
+            <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+              MOBIUS
+              <span className="text-red-600">MOTORSPORTS</span>
+              <img src="/images/projetos/logo4.png" alt="Logo Mobius" className="w-7 h-7 inline-block ml-1" />
             </h3>
             <p className="text-gray-400 mb-4">
               Especialistas em reprogramação de ECU e TCU.
@@ -39,14 +41,7 @@ export function Footer() {
                   </a>
                 </div>
               </li>
-              <li className="flex items-start gap-3 text-gray-400">
-                <Mail size={20} className="mt-1 flex-shrink-0 text-red-600" />
-                <div>
-                  <a href="mailto:contato@mobiusmotorsports.com.br" className="hover:text-white transition-colors">
-                    contato@mobiusmotorsports.com.br
-                  </a>
-                </div>
-              </li>
+              
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin size={20} className="mt-1 flex-shrink-0 text-red-600" />
                 <div>
@@ -80,7 +75,9 @@ export function Footer() {
 
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-zinc-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Mobius Motorsports. Todos os direitos reservados.</p>
+          <p className="flex items-center justify-center gap-2">
+            &copy; {new Date().getFullYear()} Mobius Motorsports. Todos os direitos reservados.
+          </p>
           <p className="mt-2 text-sm">
             Desenvolvido com alta performance para alta performance.
           </p>

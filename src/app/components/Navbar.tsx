@@ -18,6 +18,11 @@ export function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center">
+            <img
+              src="/images/projetos/logo3.png"
+              alt="Logo Mobius Motorsports"
+              className="w-15 h-15 object-contain align-middle"
+            />
             <span className="text-2xl font-bold text-white">
               MOBIUS<span className="text-red-600"> MOTORSPORTS</span>
             </span>
